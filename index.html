@@ -1,0 +1,65 @@
+<!DOCTYPE html>  <html lang="bn">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>Clash Adda Style Tournament</title>  
+  <style>  
+    body { font-family: sans-serif; margin: 0; background: #121212; color: #fff; }  
+    header, footer { background: #1e1e1e; padding: 10px; text-align: center; }  
+    .container { padding: 15px; }  
+    .card { background: #2a2a2a; padding: 15px; border-radius: 10px; margin: 10px 0; }  
+    .btn { background: #03dac5; color: black; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; margin-top: 5px; }  
+    input, select { padding: 8px; width: 100%; margin: 5px 0; border-radius: 5px; border: none; }  
+    .hidden { display: none; }  
+    .slider { width: 100%; overflow: hidden; position: relative; border-radius: 10px; margin-bottom: 10px; }  
+    .slides { display: flex; width: 200%; animation: slide 6s infinite; }  
+    .slides img { width: 100%; display: block; border-radius: 10px; }  
+    .support-box {  
+      display: inline-block;  
+      margin-left: 10px;  
+      padding: 5px 10px;  
+      border: 1px solid #03dac5;  
+      border-radius: 5px;  
+      cursor: pointer;  
+      font-size: 14px;  
+      text-decoration: none;  
+      color: #03dac5;  
+    }  
+    .support-box:hover { background: #03dac5; color: black; text-decoration: none; }  
+    @keyframes slide {  
+      0%, 45% { transform: translateX(0%); }  
+      55%, 100% { transform: translateX(-100%); }  
+    }  
+    .nav-bar {  
+      position: fixed;  
+      bottom: 0;  
+      width: 100%;  
+      background: #1e1e1e;  
+      display: flex;  
+      justify-content: space-around;  
+      padding: 10px 0;  
+      z-index: 1000;  
+    }  
+    .nav-btn {  
+      color: #03dac5;  
+      background: none;  
+      border: none;  
+      font-size: 16px;  
+      cursor: pointer;  
+    }  
+    .nav-btn:hover {  
+      text-decoration: underline;  
+    }  
+    .room-toggle {  
+      margin-top: 30px;  
+      text-align: left;  
+      font-size: 14px;  
+      color: white;  
+      cursor: pointer;  
+    }  
+    .room-toggle:hover {  
+      text-decoration: underline;  
+    }  
+  </style> 
+  ...
+</html>
